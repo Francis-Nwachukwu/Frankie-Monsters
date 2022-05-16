@@ -1,7 +1,11 @@
 .card-list {
-  width: 85vw;
-  margin: 0 auto;
+  /* width: 85vw; */
+  /* margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-gap: 20px;
+  grid-gap: 20px; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
 }
